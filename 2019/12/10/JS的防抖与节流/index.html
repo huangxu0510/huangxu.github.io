@@ -90,7 +90,7 @@
 <meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/10/163e9f9241fbfe91?imageslim">
 <meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/10/163e9f9241c653a8?imageView2/0/w/1280/h/960/format/webp/ignore-error/1">
 <meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/10/163e9f9241d809aa?imageslim">
-<meta property="og:updated_time" content="2019-12-10T03:13:23.923Z">
+<meta property="og:updated_time" content="2019-12-10T03:18:52.878Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JS的防抖与节流">
 <meta name="twitter:description" content="在进行窗口的resize、scroll，输入框内容校验等操作时，如果事件处理函数调用的频率无限制，会加重浏览器的负担，导致用户体验非常糟糕。此时我们可以采用debounce（防抖）和throttle（节流）的方式来减少调用频率，同时又不影响实际效果。 函数防抖函数防抖（debounce）：当持续触发事件时，一定时间段内没有再触发事件，事件处理函数才会执行一次，如果设定的时间到来之前，又一次触发了事">
@@ -260,7 +260,7 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/12/10/JS的防抖与节流/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="huangxu">
       <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
@@ -325,7 +325,7 @@
 
       
         <p>在进行窗口的resize、scroll，输入框内容校验等操作时，如果事件处理函数调用的频率无限制，会加重浏览器的负担，导致用户体验非常糟糕。此时我们可以采用debounce（防抖）和throttle（节流）的方式来减少调用频率，同时又不影响实际效果。</p>
-<h3 id="函数防抖"><a href="#函数防抖" class="headerlink" title="函数防抖"></a>函数防抖</h3><p>函数防抖（debounce）：当持续触发事件时，一定时间段内没有再触发事件，事件处理函数才会执行一次，如果设定的时间到来之前，又一次触发了事件，就重新开始延时。如下图，持续触发scroll事件时，并不执行handle函数，当1000毫秒内没有触发scroll事件时，才会延时触发scroll事件。</p>
+<h4 id="函数防抖"><a href="#函数防抖" class="headerlink" title="函数防抖"></a>函数防抖</h4><p>函数防抖（debounce）：当持续触发事件时，一定时间段内没有再触发事件，事件处理函数才会执行一次，如果设定的时间到来之前，又一次触发了事件，就重新开始延时。如下图，持续触发scroll事件时，并不执行handle函数，当1000毫秒内没有触发scroll事件时，才会延时触发scroll事件。</p>
 <p><img src="https://user-gold-cdn.xitu.io/2018/6/10/163e9f9241e349d2?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
 <p>一起来实现个简单的debounce~</p>
 <p>防抖debounce代码：</p>
@@ -453,7 +453,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-author-name" itemprop="name">huangxu</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -501,7 +501,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#函数防抖"><span class="nav-number">1.</span> <span class="nav-text">函数防抖</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#函数节流"><span class="nav-number">1.1.</span> <span class="nav-text">函数节流</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#总结"><span class="nav-number">1.2.</span> <span class="nav-text">总结</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#函数防抖"><span class="nav-number">1.</span> <span class="nav-text">函数防抖</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#函数节流"><span class="nav-number">2.</span> <span class="nav-text">函数节流</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
             
 
           </div>
@@ -525,7 +525,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">huangxu</span>
 
   
 </div>
